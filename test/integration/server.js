@@ -15,7 +15,8 @@ var config = require('../test-config');
 var Bitcore = require('bitcore-lib');
 var Bitcore_ = {
   btc: Bitcore,
-  bch: require('bitcore-lib-cash')
+  bch: require('bitcore-lib-cash'),
+  xsg: require('bitcore-lib-snowgem'),
 };
 
 
