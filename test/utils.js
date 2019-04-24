@@ -147,13 +147,13 @@ describe('Utils', function() {
 
   describe('#getAddressCoin', function() {
     it('should identify btc as coin for 1LqBGSKuX5yYUonjxT5qGfpUsXKYYWeabA', function() {
-      Utils.getAddressCoin('1LqBGSKuX5yYUonjxT5qGfpUsXKYYWeabA').should.equal('btc');
+      Utils.getAddressCoin('1LqBGSKuX5yYUonjxT5qGfpUsXKYYWeabA', 'btc').should.equal('btc');
     });
     it('should identify bch as coin for CcJ4qUfyQ8x5NwhAeCQkrBSWVeXxXghcNz', function() {
-      Utils.getAddressCoin('CcJ4qUfyQ8x5NwhAeCQkrBSWVeXxXghcNz').should.equal('bch');
+      Utils.getAddressCoin('CcJ4qUfyQ8x5NwhAeCQkrBSWVeXxXghcNz', 'bch').should.equal('bch');
     });
     it('should return null for 1L', function() {
-      should.not.exist(Utils.getAddressCoin('1L'));
+      should.not.exist(Utils.getAddressCoin('1L', 'btc'));
     });
   });
  

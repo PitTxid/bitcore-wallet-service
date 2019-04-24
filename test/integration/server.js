@@ -4139,7 +4139,7 @@ console.log('[server.js.425:err:]',err); //TODO
   it('should create a BCH tx proposal with cashaddr outputs (w/o prefix) and return Copay addr', function(done) {
 
     let copayAddr = 'CPrtPWbp8cCftTQu5fzuLG5zPJNDHMMf8X';
-    let cashAddr = BCHAddressTranslator.translate(copayAddr,'cashaddr');
+    let cashAddr = BCHAddressTranslator.translate(copayAddr,'cashaddr', 'bch');
     let amount =  0.8 * 1e8;
     helpers.createAndJoinWallet(1, 1, { 
       coin: 'bch',
@@ -4193,7 +4193,7 @@ console.log('[server.js.425:err:]',err); //TODO
   it('should create a BCH tx proposal with cashaddr outputs (w/ prefix) and return Copay addr', function(done) {
 
     let copayAddr = 'CPrtPWbp8cCftTQu5fzuLG5zPJNDHMMf8X';
-    let cashAddr = BCHAddressTranslator.translate(copayAddr,'cashaddr');
+    let cashAddr = BCHAddressTranslator.translate(copayAddr,'cashaddr', 'bch');
     let amount =  0.8 * 1e8;
     helpers.createAndJoinWallet(1, 1, { 
       coin: 'bch',
@@ -4248,7 +4248,7 @@ console.log('[server.js.425:err:]',err); //TODO
   it('should create a BCH tx proposal with cashaddr and keep message', function(done) {
 
     let copayAddr = 'CPrtPWbp8cCftTQu5fzuLG5zPJNDHMMf8X';
-    let cashAddr = BCHAddressTranslator.translate(copayAddr,'cashaddr');
+    let cashAddr = BCHAddressTranslator.translate(copayAddr,'cashaddr', 'bch');
     let amount =  0.8 * 1e8;
     helpers.createAndJoinWallet(1, 1, { 
       coin: 'bch',
