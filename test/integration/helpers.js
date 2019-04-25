@@ -19,6 +19,7 @@ var Bitcore_ = {
   btc: Bitcore,
   bch: require('bitcore-lib-cash'),
   xsg: require('bitcore-lib-snowgem'),
+  zec: require('bitcore-lib-zcash'),
 };
 
 var Common = require('../../lib/common');

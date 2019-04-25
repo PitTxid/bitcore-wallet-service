@@ -25,6 +25,7 @@
     "bitcore-lib": "=0.16.0",
     "bitcore-lib-cash": "=0.19.0",
     "bitcore-lib-snowgem": "github:snowgem/bitcore-lib-snowgem",
+    "bitcore-lib-zcash": "github:pittxid/bitcore-lib-zcash",
     "body-parser": "^1.11.0",
     "compression": "^1.6.2",
     "email-validator": "^1.0.1",

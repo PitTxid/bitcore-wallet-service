@@ -70,6 +70,10 @@ describe('Email notifications', function() {
                   xsg: {
                     livenet: 'https://explorer.snowgem.org/tx/{{txid}}',
                     testnet: 'https://explorer.snowgem.org/tx/{{txid}}',
+                  },
+                  zec: {
+                    livenet: 'https://zcash.blockexplorer.com/tx/{{txid}}',
+                    testnet: 'https://zcash.blockexplorer.com/tx/{{txid}}',
                   }
                 },
               },
@@ -162,6 +166,10 @@ describe('Email notifications', function() {
                   xsg: {
                     livenet: 'https://explorer.snowgem.org/tx/{{txid}}',
                     testnet: 'https://explorer.snowgem.org/tx/{{txid}}',
+                  },
+                  zec: {
+                    livenet: 'https://zcash.blockexplorer.com/tx/{{txid}}',
+                    testnet: 'https://zcash.blockexplorer.com/tx/{{txid}}',
                   }
                 },
               },
@@ -664,6 +672,10 @@ describe('Email notifications', function() {
                   xsg: {
                     livenet: 'https://explorer.snowgem.org/tx/{{txid}}',
                     testnet: 'https://explorer.snowgem.org/tx/{{txid}}',
+                  },
+                  zec: {
+                    livenet: 'https://zcash.blockexplorer.com/tx/{{txid}}',
+                    testnet: 'https://zcash.blockexplorer.com/tx/{{txid}}',
                   }
                 },
               },

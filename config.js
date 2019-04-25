@@ -82,6 +82,19 @@ var config = {
         // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
       },
     },
+    zec: {
+      livenet: {
+        provider: 'insight',
+        url: 'https://zcash.blockexplorer.com:443',
+      },
+      testnet: {
+        provider: 'insight',
+        url: 'https://zcash.blockexplorer.com:443',
+        // url: 'http://localhost:3001',
+        // Multiple servers (in priority order)
+        // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
+      },
+    },
   },
   pushNotificationsOpts: {
     templatePath: './lib/templates',
