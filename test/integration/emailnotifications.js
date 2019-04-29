@@ -74,6 +74,10 @@ describe('Email notifications', function() {
                   zec: {
                     livenet: 'https://zcash.blockexplorer.com/tx/{{txid}}',
                     testnet: 'https://zcash.blockexplorer.com/tx/{{txid}}',
+                  },
+                  dash: {
+                    livenet: 'https://insight.dash.org/tx/{{txid}}',
+                    testnet: 'https://insight.dash.org/tx/{{txid}}',
                   }
                 },
               },

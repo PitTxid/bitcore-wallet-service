@@ -20,6 +20,7 @@
     "url": "https://github.com/bitpay/bitcore-wallet-service/issues"
   },
   "dependencies": {
+    "@dashevo/dashcore-lib": "^0.17.3",
     "@sendgrid/mail": "^6.3.1",
     "async": "^0.9.2",
     "bitcore-lib": "=0.16.0",
