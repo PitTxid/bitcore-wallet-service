@@ -61,41 +61,41 @@ var config = {
     xsg: {
       livenet: {
         provider: 'insight',
-        url: 'https://explorer.snowgem.org:443',
+        url: 'https://explorer.snowgem.org',
       },
       testnet: {
         provider: 'insight',
-        url: 'https://explorer.snowgem.org:443',
+        url: 'https://explorer.snowgem.org',
       },
     },
     zec: {
       livenet: {
         provider: 'insight',
-        url: 'https://zcash.blockexplorer.com:443',
+        url: 'https://zcash.blockexplorer.com',
       },
       testnet: {
         provider: 'insight',
-        url: 'https://zcash.blockexplorer.com:443',
+        url: 'https://zcash.blockexplorer.com',
       },
     },
     dash: {
       livenet: {
         provider: 'insight',
-        url: 'https://dashblockexplorer.com:443',
+        url: 'https://insight.dash.org',
       },
       testnet: {
         provider: 'insight',
-        url: 'https://dashblockexplorer.com:443',
+        url: 'https://insight.dash.org',
       },
     },
     ltc: {
       livenet: {
         provider: 'insight',
-        url: 'https://insight.litecore.io:443',
+        url: 'https://insight.litecore.io',
       },
       testnet: {
         provider: 'insight',
-        url: 'https://insight.litecore.io:443',
+        url: 'https://insight.litecore.io',
       },
     },
   },
