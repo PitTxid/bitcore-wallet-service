@@ -81,11 +81,11 @@ var config = {
     dash: {
       livenet: {
         provider: 'insight',
-        url: 'https://insight.dash.org',
+        url: 'https://dashblockexplorer.com',
       },
       testnet: {
         provider: 'insight',
-        url: 'https://insight.dash.org',
+        url: 'https://dashblockexplorer.com',
       },
     },
     ltc: {

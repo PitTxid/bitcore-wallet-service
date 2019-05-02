@@ -76,8 +76,8 @@ describe('Email notifications', function() {
                     testnet: 'https://zcash.blockexplorer.com/tx/{{txid}}',
                   },
                   dash: {
-                    livenet: 'https://insight.dash.org/tx/{{txid}}',
-                    testnet: 'https://insight.dash.org/tx/{{txid}}',
+                    livenet: 'https://dashblockexplorer.com/tx/{{txid}}',
+                    testnet: 'https://dashblockexplorer.com/tx/{{txid}}',
                   },
                   ltc: {
                     livenet: 'https://insight.litecore.io/tx/{{txid}}',
@@ -180,8 +180,8 @@ describe('Email notifications', function() {
                     testnet: 'https://zcash.blockexplorer.com/tx/{{txid}}',
                   },
                   dash: {
-                    livenet: 'https://insight.dash.org/tx/{{txid}}',
-                    testnet: 'https://insight.dash.org/tx/{{txid}}',
+                    livenet: 'https://dashblockexplorer.com/tx/{{txid}}',
+                    testnet: 'https://dashblockexplorer.com/tx/{{txid}}',
                   },
                   ltc: {
                     livenet: 'https://insight.litecore.io/tx/{{txid}}',
@@ -694,8 +694,8 @@ describe('Email notifications', function() {
                     testnet: 'https://zcash.blockexplorer.com/tx/{{txid}}',
                   },
                   dash: {
-                    livenet: 'https://insight.dash.org/tx/{{txid}}',
-                    testnet: 'https://insight.dash.org/tx/{{txid}}',
+                    livenet: 'https://dashblockexplorer.com/tx/{{txid}}',
+                    testnet: 'https://dashblockexplorer.com/tx/{{txid}}',
                   },
                   ltc: {
                     livenet: 'https://insight.litecore.io/tx/{{txid}}',
