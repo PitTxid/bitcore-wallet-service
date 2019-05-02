@@ -88,6 +88,16 @@ var config = {
         url: 'https://dashblockexplorer.com:443',
       },
     },
+    ltc: {
+      livenet: {
+        provider: 'insight',
+        url: 'https://insight.litecore.io:443',
+      },
+      testnet: {
+        provider: 'insight',
+        url: 'https://insight.litecore.io:443',
+      },
+    },
   },
   pushNotificationsOpts: {
     templatePath: './lib/templates',

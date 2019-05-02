@@ -16,6 +16,7 @@ var Bitcore_ = {
   bch: require('bitcore-lib-cash'),
   xsg: require('bitcore-lib-snowgem'),
   zec: require('bitcore-lib-zcash'),
+  ltc: require('bitcore-lib-litecoin'),
 };
 
 

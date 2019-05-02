@@ -25,6 +25,7 @@
     "async": "^0.9.2",
     "bitcore-lib": "=0.16.0",
     "bitcore-lib-cash": "=0.19.0",
+    "bitcore-lib-litecoin": "github:pittxid/bitcore-lib-litecoin",
     "bitcore-lib-snowgem": "github:snowgem/bitcore-lib-snowgem",
     "bitcore-lib-zcash": "github:pittxid/bitcore-lib-zcash",
     "body-parser": "^1.11.0",

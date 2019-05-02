@@ -78,7 +78,11 @@ describe('Email notifications', function() {
                   dash: {
                     livenet: 'https://dashblockexplorer.com/tx/{{txid}}',
                     testnet: 'https://dashblockexplorer.com/tx/{{txid}}',
-                  }
+                  },
+                  ltc: {
+                    livenet: 'https://insight.litecore.io/tx/{{txid}}',
+                    testnet: 'https://insight.litecore.io/tx/{{txid}}',
+                  },
                 },
               },
             }, function(err) {
@@ -174,7 +178,15 @@ describe('Email notifications', function() {
                   zec: {
                     livenet: 'https://zcash.blockexplorer.com/tx/{{txid}}',
                     testnet: 'https://zcash.blockexplorer.com/tx/{{txid}}',
-                  }
+                  },
+                  dash: {
+                    livenet: 'https://dashblockexplorer.com/tx/{{txid}}',
+                    testnet: 'https://dashblockexplorer.com/tx/{{txid}}',
+                  },
+                  ltc: {
+                    livenet: 'https://insight.litecore.io/tx/{{txid}}',
+                    testnet: 'https://insight.litecore.io/tx/{{txid}}',
+                  },
                 },
               },
             }, function(err) {
@@ -680,7 +692,15 @@ describe('Email notifications', function() {
                   zec: {
                     livenet: 'https://zcash.blockexplorer.com/tx/{{txid}}',
                     testnet: 'https://zcash.blockexplorer.com/tx/{{txid}}',
-                  }
+                  },
+                  dash: {
+                    livenet: 'https://dashblockexplorer.com/tx/{{txid}}',
+                    testnet: 'https://dashblockexplorer.com/tx/{{txid}}',
+                  },
+                  ltc: {
+                    livenet: 'https://insight.litecore.io/tx/{{txid}}',
+                    testnet: 'https://insight.litecore.io/tx/{{txid}}',
+                  },
                 },
               },
             }, function(err) {
