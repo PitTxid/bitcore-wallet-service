@@ -98,6 +98,12 @@ var config = {
         url: 'https://insight.litecore.io',
       },
     },
+    zen: {
+      livenet: {
+        provider: 'insight',
+        url: 'https://explorer.zensystem.io',
+      },
+    },
   },
   pushNotificationsOpts: {
     templatePath: './lib/templates',

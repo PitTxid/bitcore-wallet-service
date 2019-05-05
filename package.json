@@ -28,6 +28,7 @@
     "bitcore-lib-litecoin": "github:pittxid/bitcore-lib-litecoin",
     "bitcore-lib-snowgem": "github:snowgem/bitcore-lib-snowgem",
     "bitcore-lib-zcash": "github:pittxid/bitcore-lib-zcash",
+    "bitcore-lib-zen": "github:pittxid/bitcore-lib-zen",
     "body-parser": "^1.11.0",
     "compression": "^1.6.2",
     "email-validator": "^1.0.1",

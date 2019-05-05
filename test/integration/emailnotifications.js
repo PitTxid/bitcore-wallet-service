@@ -83,6 +83,10 @@ describe('Email notifications', function() {
                     livenet: 'https://insight.litecore.io/tx/{{txid}}',
                     testnet: 'https://insight.litecore.io/tx/{{txid}}',
                   },
+                  zen: {
+                    livenet: 'https://explorer.zensystem.io/tx/{{txid}}',
+                    testnet: 'https://explorer.zensystem.io/tx/{{txid}}',
+                  },
                 },
               },
             }, function(err) {
@@ -186,6 +190,10 @@ describe('Email notifications', function() {
                   ltc: {
                     livenet: 'https://insight.litecore.io/tx/{{txid}}',
                     testnet: 'https://insight.litecore.io/tx/{{txid}}',
+                  },
+                  zen: {
+                    livenet: 'https://explorer.zensystem.io/tx/{{txid}}',
+                    testnet: 'https://explorer.zensystem.io/tx/{{txid}}',
                   },
                 },
               },
@@ -700,6 +708,10 @@ describe('Email notifications', function() {
                   ltc: {
                     livenet: 'https://insight.litecore.io/tx/{{txid}}',
                     testnet: 'https://insight.litecore.io/tx/{{txid}}',
+                  },
+                  zen: {
+                    livenet: 'https://explorer.zensystem.io/tx/{{txid}}',
+                    testnet: 'https://explorer.zensystem.io/tx/{{txid}}',
                   },
                 },
               },
