@@ -87,6 +87,10 @@ describe('Email notifications', function() {
                     livenet: 'https://explorer.zensystem.io/tx/{{txid}}',
                     testnet: 'https://explorer.zensystem.io/tx/{{txid}}',
                   },
+                  kmd: {
+                    livenet: 'https://kmdexplorer.io/tx/{{txid}}',
+                    testnet: 'https://kmdexplorer.io/tx/{{txid}}',
+                  },
                 },
               },
             }, function(err) {
@@ -194,6 +198,10 @@ describe('Email notifications', function() {
                   zen: {
                     livenet: 'https://explorer.zensystem.io/tx/{{txid}}',
                     testnet: 'https://explorer.zensystem.io/tx/{{txid}}',
+                  },
+                  kmd: {
+                    livenet: 'https://kmdexplorer.io/tx/{{txid}}',
+                    testnet: 'https://kmdexplorer.io/tx/{{txid}}',
                   },
                 },
               },
@@ -712,6 +720,10 @@ describe('Email notifications', function() {
                   zen: {
                     livenet: 'https://explorer.zensystem.io/tx/{{txid}}',
                     testnet: 'https://explorer.zensystem.io/tx/{{txid}}',
+                  },
+                  kmd: {
+                    livenet: 'https://kmdexplorer.io/tx/{{txid}}',
+                    testnet: 'https://kmdexplorer.io/tx/{{txid}}',
                   },
                 },
               },

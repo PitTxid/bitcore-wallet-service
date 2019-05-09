@@ -23,6 +23,7 @@ var Bitcore_ = {
   dash: require("@dashevo/dashcore-lib"),
   ltc: require('bitcore-lib-litecoin'),
   zen: require('bitcore-lib-zen'),
+  kmd: require('bitcore-lib-komodo'),
 };
 
 var Common = require('../../lib/common');

@@ -104,6 +104,12 @@ var config = {
         url: 'https://explorer.zensystem.io',
       },
     },
+    kmd: {
+      livenet: {
+        provider: 'insight',
+        url: 'https://kmdexplorer.io',
+      },
+    },
   },
   pushNotificationsOpts: {
     templatePath: './lib/templates',
